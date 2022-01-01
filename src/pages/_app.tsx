@@ -1,4 +1,4 @@
-import "../globals.css";
+import "../../global.css";
 
 const MyApp = ({ Component, pageProps }) => {
   const getLayout = Component.getLayout || ((page) => page);
