@@ -1,7 +1,7 @@
 import Head from "next/head";
-import styles from "./layout.module.css"
+import styles from "./layout.module.css";
 
-const Layout ({ children }) {
+const Layout = ({ children }) => {
   return (
     <>
       <Head>
@@ -9,7 +9,7 @@ const Layout ({ children }) {
       </Head>
       <main className={styles.css}>{children}</main>
     </>
-  )
-}
+  );
+};
 
 export default Layout;
